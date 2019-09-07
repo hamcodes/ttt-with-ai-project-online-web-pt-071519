@@ -3,3 +3,4 @@
 require_relative '../config/environment'
 if input == "0"
 game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"))
+elsif input == "1"
