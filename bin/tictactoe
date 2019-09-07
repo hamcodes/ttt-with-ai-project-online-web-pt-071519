@@ -11,4 +11,4 @@ game = Game.new(Players::Computer.new("X"), Players::Human.new("O"))
     puts "Wrong Input, Please select 0, 1, or 2"
     return
     end
-    
+    game.play
